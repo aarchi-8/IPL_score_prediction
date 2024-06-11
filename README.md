@@ -28,18 +28,22 @@ Step 3: Data Pre-processing
 3.1 Dropping unimportant features
 We have created a new dataframe by dropping several columns from the original DataFrame.
 The new DataFrame contains the remaining columns that we are going to train the predictive model.
+
 3.2 Further Pre-Processing
 We have split the data frame into independent variable (X) and dependent variables (y). Our dependent variables is the total score.
+
 3.3 Label Encoding
 We have applied label encoding to your categorical features in X.
 We have created separate LabelEncoder objects for each categorical feature and encoded their values.
 We have created mappings to convert the encoded labels back to their original values, which can be helpful for interpreting the results.
+
 3.4 Train Test Split
 We have split the data into training and testing sets. The training set contains 70 percent of the dataset and rest 30 percent is in test set.
 X_train contains the training data for your input features.
 X_test contains the testing data for your input features.
 y_train contains the training data for your target variable.
 y_test contains the testing data for your target variable.
+
 3.5 Feature Scaling
 We have performed Min-Max scaling on our input features to ensure all the features are on the same scale
 Scaling is performed to ensure consistent scale to improve model performance.
